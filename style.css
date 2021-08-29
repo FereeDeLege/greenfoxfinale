@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(153, 149, 149, 0.952);
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+img {
+    border: 2px solid #C0C0C0;
+    padding: 5px;
+    max-width: 150px;
+    max-width: 150px;
+  }
+
+#leftarrow {
+    width: 25px;
+    height: 25px;
+    background-color: blanchedalmond;
+}
+
+#rightarrow {
+    width: 25px;
+    height: 25px;
+    transform: rotate(0.5turn);
+    background-color: blanchedalmond;
+}
+
+.stage {
+    border: 2px solid #C0C0C0;
+    padding: 5px;
+    max-width: 450px;
+    max-width: 450px;
+}
+
+.mainphoto {
+    border: 2px solid #C0C0C0;
+    padding: 0;
+    margin: auto;
+    max-width: 550px;
+    max-width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
